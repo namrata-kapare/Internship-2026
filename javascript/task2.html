@@ -1,5 +1,7 @@
-    <!-- WAP to print max between 2 number
-    56 78 max:78  -->
+ <!-- WAP to calculate electricty bill:
+  Unit<=100 2Rs. per unit
+  Unit between 101-200 3Rs. per unit
+  Unit >200 5Rs. per unit -->
 
       <!DOCTYPE html>
       <html lang="en">
@@ -10,9 +12,26 @@
       </head>
       <body>
              <script>
-                     var a=56;
-                     var b=78;
-                     console.log(a>b?a:b);
+                     var unit=Number(prompt("Enter the units:",+unit));
+                     var b;
+                     if(unit<=200)
+                     {
+                          if(unit<=100)
+                          {
+                             b=unit*2;
+                           
+                          }
+                          else
+                          {
+                             b=unit*3;
+                          }
+                     }
+                     else
+                     {
+                         b=unit*5;
+                     }
+                     console.log("Electricity Bill:",+b);
+                    
              </script>
       </body>
       </html>
