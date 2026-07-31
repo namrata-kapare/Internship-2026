@@ -1,0 +1,43 @@
+<!-- write javascript program that simulates  asimple ATM -->
+<!-- Display the following menu using prompt(): -->
+<!-- 1.check balance -->
+<!-- 2.withdraw -->
+<!-- 3.deposit -->
+ <!-- 4.exit -->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+            var bal=20000;
+            var a;
+            var ch=Number(prompt("Enter Your Choice:\n1.Chcek Balance\n2.Withdraw\n3.Deposit\n4.Exit"))
+                switch(ch)
+                {
+                    case 1:document.write("Your Balance is :"+bal);
+                           break;
+                    case 2:a=Number(prompt("Enter amount to withdraw:"));
+                           bal=bal-a;
+                           document.write("withdrawn successfully:",+a);
+                           document.write("\nAvailable Balance:",+bal);
+                           break;  
+                    case 3:a=Number(prompt("Enter amount for deposited:"));
+                           bal=bal+a; 
+                           document.write("\nDeposited Succesfully:"+a); 
+                            document.write("\nAvailable Balance:",+bal);
+                             break;
+                    case 4:document.write("Thank you for choosing us.....!!!")
+                        break;         
+                             
+                    default:document.write("Invalid Choice");
+                            break;        
+                }
+            
+    </script>
+</body>
+</html>
