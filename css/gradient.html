@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 400px;
+            width: 300px;
+            border: 2px solid black;
+            display: inline-block;
+            margin: 20px;
+           /* background-color: aqua; */
+        background-color: #ffb5b5;     
+               /* we can get multiple colors from css color palette website */
+               
+        }
+        #box1{
+                 background-image:linear-gradient(pink,purple,red,black);
+        }
+        #box2{
+           background-image: radial-gradient(maroon,red,orange,green);
+        }
+        #box3{
+            background-image: conic-gradient(blue,green,yellow,orange,red);
+        }
+    </style>
+</head>
+<body>
+    <!-- gradient - transition between 2 or more colors -->
+     <!-- 1.linear gradient - linear top to bottom
+       2.conic gradient - center outside
+       3.radial gradient -rotated around the center point
+        -->
+    <div class="box" id="box1"></div>
+    <div class="box" id="box2"></div>                
+    <div class="box" id="box3"></div>
+</body>
+</html>
