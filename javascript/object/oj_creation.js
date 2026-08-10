@@ -25,12 +25,14 @@ let book=
 console.log(book.price[2]);
 console.log(book.info());
 
+
 // 2.using object keyword
 
 let student=new Object();
 student.name="namrata";
 student.rollno=1;
 console.log(student);
+
 
 // 3.using function constructor
 
