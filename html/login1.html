@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="user" placeholder="Enter the username">
+    <br><br>
+    <input type="password" id="pass"  placeholder="Enter the password">
+    <br><br>
+    <button onclick="getClick()">LOGIN</button>
+
+    <script>
+        let user=document.getElementById("user");
+        let pass=document.getElementById("pass");
+        let username="admin"
+        let password="admin@123"
+
+        function getClick(){
+            if(username==user.value&&password==pass.value){
+                alert("Login Succesgully");
+            }
+            else{
+                // incorrecrt password
+                // input -Enter mobile number/gmail
+                // otp - generate
+                // input -Enter otp
+                // user verified
+            }
+        }
+    </script>
+</body>
+</html>

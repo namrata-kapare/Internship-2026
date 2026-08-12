@@ -1,4 +1,6 @@
 
+// object-it is used to store some data in key and value format
+
 // 3 ways to create object in javascript
 // 1.simple object created using curly braces
 
