@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+     <select name="" id="state" onchange="getData()">
+        <option value="">State</option>
+        <option value="Maharashtra">Maharashtra</option>
+        <option value="Goa">Goa</option>
+        <option value="Rajastan">Rajastan</option>
+        <option value="Gujrat">Gujrat</option>
+     </select>
+
+     <h1 id="msg"></h1>
+     <script>
+        let ele=document.getElementById('state')
+        let msg=document.getElementById('msg')
+        function getData()
+        {
+            msg.innerHTML=`selected option:${ele.value}`
+        }
+     </script>
+    
+</body>
+</html>
