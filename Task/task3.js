@@ -1,3 +1,5 @@
+
+
 // online shopping discount using else if ladder
 // Write logic : If bill>5000 ->discount 20%
 //               If bill>3000 -->discount 10%
