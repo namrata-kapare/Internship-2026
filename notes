@@ -1,0 +1,17 @@
+
+react js
+single page application 
+1html->1DOM
+virtual 1DOM
+
+bootstrap-css propety
+tailwund css-css proprty
+react js->react.dev./blog
+
+node modules- inbuild libraries store in folder format - no changes
+public - favicon,icon
+gitignore - .env
+index html- only one file which will run throuhg the program
+pacakge.lock.json--
+package.json--project schema or project cha meta data
+readme.md--if another worker is try to undertsand then the imp detilas of your project
