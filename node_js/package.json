@@ -1,0 +1,24 @@
+{
+  "name": "intership-2026",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/namratakapare2-cloud/Internship-2026#readme",
+  "bugs": {
+    "url": "https://github.com/namratakapare2-cloud/Internship-2026/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namratakapare2-cloud/Internship-2026.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
